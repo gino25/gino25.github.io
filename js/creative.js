@@ -50,7 +50,7 @@
     $('#code').submit(function(e){
         e.preventDefault();
         alert('Het spijt ons.\n\nVoor de ingegeven code hebben we geen inschrijving ontvangen.\n\nWe verwijzen u door naar een andere reeks.');
-        window.location.replace('http://localhost:8888/Tim25/index2.html');
+        window.location.replace('http://tim25.github.io/index2.html');
     });
 
 })(jQuery); // End of use strict
