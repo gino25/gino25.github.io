@@ -48,9 +48,9 @@
     $('.header-content').delay(2000).css({ opacity: 1, background: "rgba(48,20,10,0.3)"});
 
     $('#code').submit(function(e){
-        e.preventDefault();
+        e.preventDefault(); 
         alert('Het spijt ons.\n\nVoor de ingegeven code hebben we geen inschrijving ontvangen.\n\nWe verwijzen u door naar een andere reeks.');
-        window.location.replace('http://tim25.github.io/index2.html');
+        window.location.replace('http://gino25.github.io/index2.html');
     });
 
 })(jQuery); // End of use strict
